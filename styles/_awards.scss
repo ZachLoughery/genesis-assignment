@@ -1,0 +1,62 @@
+.awards {
+  margin-top: 100px;
+
+  hr {
+    height: 2px;
+    background-color: #d8d8d8;
+    margin: 0;
+    border: 0;
+  }
+
+  &__box {
+    margin-top: 50px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      color: fonts.$font-dark;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__desc {
+    width: 60%;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    gap: 50px;
+
+    h3 {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      width: 135px;
+    }
+
+    p {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  &__desc__info {
+    width: 190px;
+  }
+
+  .awards__desc-translucent {
+    opacity: 0.6;
+  }
+}
