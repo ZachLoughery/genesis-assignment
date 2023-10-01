@@ -1,9 +1,15 @@
-@use 'fonts';
+@use "fonts";
 
 body {
-    font-family: fonts.$main-font;
-    margin: 0 auto;
+  font-family: fonts.$main-font;
 }
 
-@import 'header';
-@import 'footer';
+main {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+@import "header";
+@import "footer";
+@import "title_section";
+@import "content_grid";

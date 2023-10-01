@@ -1,0 +1,50 @@
+.title {
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-between;
+
+  h2 {
+    color: fonts.$font-highlight;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.423px;
+    margin: 0 0 32px 0;
+  }
+
+  h1 {
+    color: fonts.$font-dark;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+  }
+
+  hr {
+    width: 30px;
+    height: 2px;
+    background-color: fonts.$font-dark;
+    opacity: 0.5;
+    margin: 0;
+  }
+
+  p {
+    opacity: 0.6;
+    margin: 9px 0 0 0;
+  }
+
+  .highlight {
+    color: fonts.$font-highlight;
+  }
+
+  .title__main {
+    width: 635px;
+  }
+
+  .title__sub {
+    position: relative;
+    transform: translate(-60%, 75%);
+  }
+}
