@@ -1,0 +1,31 @@
+header {
+  margin-top: 60px;
+  nav {
+    width: 80vw;
+    margin: 0 auto;
+    color: fonts.$font-dark;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 29px;
+
+      li a {
+        text-decoration: none;
+        color: fonts.$font-dark;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.346px;
+
+        &:hover {
+          color: fonts.$font-highlight;
+        }
+      }
+    }
+  }
+}
